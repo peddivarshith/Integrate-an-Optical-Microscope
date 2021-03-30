@@ -1,0 +1,44 @@
+
+    <!DOCTYPE html>    
+    <html>    
+    <head>    
+        <title>caMicroscope</title>    
+        <link rel="stylesheet" type="text/css" href="static/css/style.css">   
+    </head>    
+    <body>    
+        <script src="static/javascript/script.js"></script>
+        <h2><center>caMicroscope</center></h2><br>    
+        <div class="login">    
+        <form name="form" id="login" onsubmit="return validateForm(this) " method = "post">    
+            <label><b>X Value:   <input type="text" name="x_value" id = "Uname" placeholder="enter x value in mm">   
+            </b>    
+            </label>    
+               
+            <br><br>    
+            <label><b>Y Value:   <input type="text" name="y_value" id = "Uname" placeholder="enter Y value in mm">   
+            </b>    
+            </label>    
+               
+            <br><br>    
+            <label><b>Zoom-level: 
+			<select id="drop" name="z_value">
+				<option value="">--SELECT--</option>
+				<option value="4">4</option>
+				<option value="10">10</option>
+				<option value="40">40</option>
+				<option value="100">100</option>
+			</select>
+            </b>    
+            </label> 
+			<br><br>
+            <center><label><input type = "submit" value = "submit" />    </label>   </center>
+            <br><br>    
+            
+        </form>     
+
+        <span id="x_key" style="color:#F3E5AB">Current X: {{x_key}} </span>
+        <span id="y_key" style="color:#F3E5AB">Current Y: {{y_key}} </span>
+		<span id="z_key" style="color:#F3E5AB">Zoom-level: {{z_key}}X</span>
+    </div>    
+    </body>    
+    </html>     

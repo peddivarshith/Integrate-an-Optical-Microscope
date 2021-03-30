@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta http-equiv="Cache-Control" content="no-cache"/>
+        <meta http-equiv="Expires" content="-1"/>
+	
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+	<script src="static/javascript/script1.js"></script>
+	<script>
+	  function image_display(){
+	    var the_value='{{the_value}}';
+	    console.log(the_value);
+	    var img=document.createElement("img")
+	    img.src="/static/images/image"+the_value+".png"
+	    document.getElementById('body1').appendChild(img);
+	    
+	    }
+	  window.onload=image_display;
+
+	</script>
+</head>
+
+<body bgcolor="#F4F7B4">
+    <br><br>
+  
+    <h2><center><span style="color:#FF3600">caMicroscope</span></center></h2>
+  
+     
+  <div class="login" id="body1">   
+    <!--<img src = "/static/images/image.png?" alt = "image" /> -->
+  
+   </div>
+   
+   <br><br>
+   <form action="./index.html">
+     <center><input type="button" style="background-color:#008FFF;color:white;width:100px;height:30px;float:right:margin-top:10px" value="Home" onClick="reload()"></center>
+    </form>
+  
+</body>
+</html>
