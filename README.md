@@ -29,6 +29,10 @@ ifconfig
 
 **script.js**
 ![](tutorial/step1_2.png)
+</br>
+**script1.js**
+![](tutorial/step1_1.png)
+
 - Run the **server.py** from repository folder 
 ![](tutorial/step2.png)
 or either run the following command in the Integrate-an-optical-microscope folder in command prompt
