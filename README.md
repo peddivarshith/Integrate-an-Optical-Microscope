@@ -1,4 +1,4 @@
-# GSOC-caMicroscope
+# Integrate-an-Optical-Microscope
 ## Requirements
 Python - 3.5.
 - OpenCV - 
