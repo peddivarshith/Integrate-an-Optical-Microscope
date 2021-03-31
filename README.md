@@ -9,6 +9,9 @@ Python - 3.5.
 - Logging - 
 
 JavaScript
+
+## Architecture
+![](tutorial/Architecture.png)
 ## Steps to download the repository and setup the server
 - Download the github repository using the command 
 ```bash 
