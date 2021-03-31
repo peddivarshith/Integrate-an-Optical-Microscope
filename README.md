@@ -30,7 +30,8 @@ ifconfig
 **script.js**
 ![](tutorial/step1_2.png)</br></br>
 
--Update the same ip address in static/javascript/script1.js.
+- Update the same ip address in static/javascript/script1.js. 
+
 **script1.js**
 ![](tutorial/step1_1.png)
 
