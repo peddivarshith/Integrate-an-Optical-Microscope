@@ -24,8 +24,9 @@ ipconfig
 ifconfig
 ```
 - Open the cloned repository folder.
-- Update the same ip address in static/javascript/script.js as well as in script1.js </br>
+- Update the same ip address in static/javascript/script.js as well as in script1.js 
 **script1.js**
+</br>
 ![](tutorial/step1_1.png)
 
 **script.js**
