@@ -25,7 +25,8 @@ ifconfig
 ```
 - Open the cloned repository folder.
 - Update the same ip address in static/javascript/script.js as well as in script1.js
-![](link)
+![](tutorial/step1_1.png)
+![](tutorial/step1_2.png)
 - Run the server.py from repository folder 
 ![](link)
 or either run the following command in the Integrate-an-optical-microscope folder in command prompt
