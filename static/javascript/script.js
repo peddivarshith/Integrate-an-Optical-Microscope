@@ -38,6 +38,14 @@ function setAction(form) {
     }
 	
     function validateForm(form) {
+	if(document.form.x_value.value===""){
+	    alert("Please enter x value");
+            return false;	
+	}
+	 else if(document.form.y_value.value===""){
+	    alert("Please enter y value");
+            return false;
+	 }
 		//validating user inputs
 		var choose=document.getElementById("drop");
 		choose=choose.options[choose.selectedIndex].value;
