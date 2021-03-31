@@ -32,7 +32,6 @@ ifconfig
 
 - Update the same ip address in static/javascript/script1.js. 
 
-**script1.js**
 ![](tutorial/step1_1.png)
 
 - Run the **server.py** from repository folder 
