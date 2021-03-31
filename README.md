@@ -28,8 +28,7 @@ ifconfig
 
 
 **script.js**
-![](tutorial/step1_2.png)
-</br>
+![](tutorial/step1_2.png)</br></br>
 **script1.js**
 ![](tutorial/step1_1.png)
 
