@@ -1,15 +1,11 @@
 # Integrate-an-Optical-Microscope
 ## Requirements
-Python - 3.5.
-- OpenCV - 
-- Numpy -
-- Flask - 
-- Time -
-- Json -
-- Logging - 
-
+Python - 3.5.3
+- OpenCV - 3.4.4.19 
+- Numpy - 1.18.1
+- Flask - 0.12.1
+- RPi.GPIO - 0.6.5
 JavaScript
-
 ## Architecture
 ![](tutorial/Architecture.png)
 ## Steps to download the repository and setup the server
