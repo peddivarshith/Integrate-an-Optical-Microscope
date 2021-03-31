@@ -5,6 +5,7 @@ Python - 3.5.3
 - Numpy - 1.18.1
 - Flask - 0.12.1
 - RPi.GPIO - 0.6.5
+
 JavaScript
 ## Architecture
 ![](tutorial/Architecture.png)
