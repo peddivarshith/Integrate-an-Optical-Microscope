@@ -9,6 +9,10 @@ Python - 3.5.3
 JavaScript
 ## Architecture
 ![](tutorial/Architecture.png)
+## Overview
+Detailed Description/Overview:
+
+I am creating a web service using flask framework in python and the APIs are defined in our server which runs on Raspberry Pi. Here, JavaScript from our client page will call the corresponding flask APIs to render the index page when a client accesses the webserver, validates the x position input, y position input and zoom level. When the user inputs invalid data, an alert will be displayed at the client-side. The current input values along with the previous position of the x-y stage (stored in JSON file) are supplied as parameters to calculate the relative steps required to move the motorized x-y stage. The steps are then passed as signals to the motors to move to the desired position. The camera returns an image and it is stored in Raspberry Pi. The client will be routed to the caimage html page and image is rendered in the body using JavaScript. On clicking the home button, the client will be redirected to the index page and the present position of x-y stage is updated in JSON file.
 ## Steps to download the repository and setup the server
 - Download the github repository using the command 
 ```bash 
